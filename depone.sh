@@ -21,7 +21,7 @@ resourcs:
       accessConfigs:
       - name: External NAT
         type: ONE_TO_ONE_NAT
-" >> run.yaml
+" > run.yaml
 
 sudo gcloud deployment-manager deployments \
 	create $NAME \
